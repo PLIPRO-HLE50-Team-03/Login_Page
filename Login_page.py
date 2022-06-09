@@ -49,6 +49,5 @@ password_entry = Entry(root, textvar=paswd, font=("Ariel 18 bold"), show="*")
 canvas.create_window(290, 200, anchor="nw", window=password_entry)
 login = Button(root, text="Έισοδος", font=("Tahoma 22 bold"),
             width=8, bg="grey", fg='#FFC331', relief=RAISED, cursor="hand2", command=new,borderwidth=2).place(x=290, y=250)
-#login.pack(side=RIGHT, padx=15, pady=20)
 canvas.create_window(290, 290, anchor="nw", window=login)
 root.mainloop()
